@@ -24,36 +24,42 @@ body{
     box-shadow: 10px 80px 15px rgba(18, 182, 211, 0.1);
   cursor: pointer;
   border: 10px solid #dc0930;
-
+background-image: url("images/tom1.png")
 }
 .a{
     height: 8rem;
     width: 8rem;
     border: 10px solid #097db7;
+    background-image: url("images/tom2.png")
 }
 .s{
     height: 8rem;
     width: 8rem;
     border: 10px solid #40a509;
+    background-image: url("images/tom3.png")
 }
 .d{
     height: 8rem;
     border: 10px solid #f91179;
+    background-image: url("images/tom4.png");
     width: 8rem;
 }
 .j{
     height: 8rem;
     border: 10px solid #103cb8;
     width: 8rem;
+    background-image: url("images/snare.png")
 }
 .k{
     height: 8rem;border: 10px solid #caaf16;
     width: 8rem;
+    background-image: url("images/kick.png")
 }
 .l{
     height: 8rem;
     width: 8rem;
     border: 10px solid #9e0cd8;
+    background-image: url("images/crash.png")
 }
 
 h2{
