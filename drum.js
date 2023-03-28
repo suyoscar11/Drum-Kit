@@ -1,7 +1,9 @@
-var t = document.querySelectorAll(".drum").length;
-for (var i = 0; i <= t; i++) {
-  document.querySelectorAll(".drum")[t].addEventListener("click", function () {
-    var innerhtml = this.innerHTML;
+var t = document.querySelectorAll("button").length;
+
+while (t--) {
+  document.querySelectorAll("button")[t].addEventListener("click", handleClick);
+  function handleClick() {
+    var innerhtml = this.querySelectorAll;
     switch (innerhtml) {
       case "w":
         var tom1 = new Audio("sounds/tom-1.mp3");
@@ -35,6 +37,7 @@ for (var i = 0; i <= t; i++) {
         break;
       default:
         console.log(innerhtml);
+        break;
     }
-  });
+  }
 }
