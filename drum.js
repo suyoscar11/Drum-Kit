@@ -6,8 +6,8 @@ while (t--) {
     var innerhtml = this.querySelectorAll;
     switch (innerhtml) {
       case "w":
-        var tom1 = new Audio("sounds/tom-1.mp3");
-        tom1.play();
+        var tom9 = new Audio("sounds/tom-1.mp3");
+        tom9.play();
         break;
       case "a":
         var tom2 = new Audio("sounds/tom-2.mp3");
